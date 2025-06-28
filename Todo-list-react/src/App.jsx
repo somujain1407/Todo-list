@@ -12,6 +12,19 @@ import Todologinpage from './Todologinpage';
 
 
 function App() {
+
+  // function showurl(){
+  //   alert("current url:" + window.location.href)
+  // }
+
+  // function realoadpage(){
+  //   location.reload()
+  // }
+
+  // function redireactpage(){
+  //   location.assign("hTtps://deepdataindia.com")
+  // }
+
   // const [count, setCount] = useState(0)
   const [on, setOn] = useState("Pending")
   const [colo, setColo] = useState({ color: "red" })
@@ -104,9 +117,16 @@ function App() {
   });
 
   return (
-
-
     <div className='bg1'>
+
+      {/* <div className="js-div">
+        <button onClick={showurl}>show current url</button>
+        <button onClick={realoadpage}>reload</button>
+        <button onClick={redireactpage}>go to exaple.com</button>
+      </div> */}
+
+
+
 
 
       <div className='md'>
@@ -167,6 +187,9 @@ function App() {
 
 
       </div>
+
+
+
     </div>
 
 
